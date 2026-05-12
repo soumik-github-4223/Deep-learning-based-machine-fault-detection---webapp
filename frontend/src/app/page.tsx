@@ -20,7 +20,7 @@ export default function Home() {
 
   const [spectrogram, setSpectrogram] = useState("");
 
-  const recorderRef = useRef<Recorder | null>(null);
+  const recorderRef = useRef<InstanceType<any> | null>(null);
 
   const audioContextRef = useRef<AudioContext | null>(null);
 
