@@ -249,7 +249,7 @@ export default function Home() {
 
       formData.append("file", wavFile);
 
-      const response = await fetch("https://deep-learning-based-machine-fault.onrender.com/predict-audio", {
+      const response = await fetch("https://deep-learning-based-machine-fault-7o80.onrender.com/predict-audio", {
         method: "POST",
         body: formData,
       });
